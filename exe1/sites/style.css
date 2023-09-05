@@ -1,0 +1,59 @@
+*{
+    margin:0;
+    padding:0;
+    
+}
+
+.container{
+        
+	    display:flex;
+        justify-content: space-between;
+        margin-top: 150px;
+}
+.container2{
+   
+    display:flex;
+    justify-content:space-evenly;
+    margin-top: 150px;
+}
+.container3{
+  
+    display:flex;
+    justify-content:space-around;
+    margin-top: 150px;
+}
+body{
+    background-color:black;
+}
+.purple{
+    display: flex;
+    align-items: center;
+    background-color: blueviolet;
+    width: 150px;
+    height:150px;
+}
+.green{
+    background-color: green;
+    width: 150px;
+    height:150px;
+}
+.orange{
+    background-color: orange;
+    width: 150px;
+    height:150px;
+}
+.dog{
+    background-image:url(../img/pug.jpeg);
+    width: 150px;
+    height:150px;
+    background-size: cover;
+}
+.purple p{
+     text-align: center;
+}
+.green p{
+    text-align: justify;
+}
+.orange p{
+    text-align: right;
+}

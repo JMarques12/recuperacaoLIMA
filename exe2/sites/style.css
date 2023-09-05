@@ -1,0 +1,85 @@
+*{
+        margin:0px;
+        padding:0px;
+        font-family:verdana;
+}
+body{
+    height: 100vh;
+}
+:root{
+    --yellow:#fcb902;
+    --black:black;
+    --red:red;
+    --white:white;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5vh;
+    background: var(--yellow);
+    padding: 10px;
+    font-size: 1.0rem;
+    color: var(--white);
+}
+.right{
+    color: var(--red);
+}
+header div span{
+    margin: 0 20px;
+}
+nav{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    height: 5vh;
+    font-size: 1.5rem;
+    background: var(--black);
+    color: var(--white);
+}
+nav img{
+    width: 35px;
+    margin-left: 15px;
+}
+nav h1{
+    margin-left: 25px;
+}
+nav h1 span{
+    color: var(--yellow);
+}
+main{
+    background-image: url(../img/background.jpg);
+    height: 86vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.banner{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(8, 1, 1, 0.6);
+    width: 50vw;
+    height: 30vh;
+}
+.banner img{
+        height: 25px;
+        width: 25px;
+
+}
+.banner h1{
+    color: var(--white);
+    font-size: 25px;
+}
+.banner input{
+    padding: 10px;
+    margin-right: 5px ;
+    width: 300px;
+}
+.banner div{
+    margin-top: 50px;
+    align-items: center;
+    display: flex;
+}
